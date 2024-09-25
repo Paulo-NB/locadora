@@ -49,7 +49,7 @@
 
                 <p> habilidade: {{ dados.abilities[0].ability.name }}  </p>
 
-                <p> Segunda habilidade: {{ dados.abilities[1].ability.name }}  </p>
+                <p v-if="dados.abilities[1]"> Segunda habilidade: {{ dados.abilities[1].ability.name }}  </p>
 
             <p> Altura: {{ dados.height}} Metros </p>
 
